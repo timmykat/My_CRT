@@ -23,16 +23,8 @@ gem 'haml-rails'
 gem 'bower-rails'
 gem 'cocoon'
 gem 'bootstrap-sass'
-
-# Gems used only for assets and not required
-# in production environments by default.
 gem 'sass-rails'
 gem 'uglifier'
-# gem 'jquery-rails'
-# gem 'jquery-ui-rails'
-# gem 'jquery-tablesorter'
-# gem 'sugar-rails'
-# gem 'highcharts-rails'
 
 group :test, :development do
   gem 'rspec-rails'
