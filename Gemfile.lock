@@ -1,7 +1,6 @@
 GIT
-  remote: https://github.com/timmykat/devise_harvard_auth_proxy.git
-  revision: eb2fdb2b1061b8697d84e589fec420d85d0c1210
-  ref: eb2fdb2b106
+  remote: https://github.com/harvard-library/devise_harvard_auth_proxy.git
+  revision: 0ce78fff5df6704f9970ea7cc83e786ca8d7328f
   specs:
     devise_harvard_auth_proxy (0.2.0)
       devise (>= 3.0.1)
@@ -356,6 +355,3 @@ DEPENDENCIES
   therubyracer
   uglifier
   will_paginate
-
-BUNDLED WITH
-   1.10.6
