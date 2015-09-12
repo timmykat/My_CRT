@@ -5,7 +5,7 @@
     - if @test
       %a{ href: '#' } Edit this course (linked to course edit form)
     - else
-      %a{:href => "http://\#{site_url}\#{edit_course_path(course.id)}"} Edit this course
+      %a{:href => edit_course_url(course.id)} Edit this course
   %br/
   %br/
 
